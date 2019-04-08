@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+        <h1>¡¡¡Bienvenido!!!</h1>
+        <p> En este sitio puedes crear un mensaje en codigo, solo agrega un numero al azar, tu mensaje y recibiras tu mensaje cifrado</p>
+     <!--AGREGAR EL MENSAJE -->
+       <p> Ingresa tu Mensaje </p>
+        <textarea> <input type="text" id="mensaje1" rows="10" cols="40"> </textarea> 
+   
+       <!-- NUMERO -->
+       <p> Ingresa un numero  </p> 
+         <input type="number" id= "numero" size="4"  >
+   
+       <!-- MENSAJE CIFRADO -->
+      <p> Tu mensaje cifrado </p>
+         <textarea id="mensaje2" rows="10" cols="40" ></textarea> 
+   
+       <!--  -->
+         <input type="button" value="cifrar" id="cifrar" >
+   
+   <!--  -->
+         <input type="button" value="descifrar" id="descifrar"  > 
+   
+        <!--  -->    
+         <input type="button" value="Limpiar" id="limpiar"  >
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
