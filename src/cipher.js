@@ -3,7 +3,7 @@ window.cipher = {
   encode: (mensaje1,llave) => {
   //recorre el mensaje1 
     let codigocifrado="";
-    for(let i=0; i < mensaje1.length; i++){
+    for(let i=0; i <mensaje1.length; i++){
     //console.log(mensaje1[i]);
     
   //transformar a codigo ascii

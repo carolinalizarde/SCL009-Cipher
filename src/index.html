@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Caesar Cipher</title>
+    <title>Feliz Cumple Secreto</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
         <h1>¡¡¡Bienvenido!!!</h1>
-        <p> En este sitio puedes crear un mensaje en codigo, solo agrega un numero al azar, tu mensaje y recibiras tu mensaje cifrado</p>
+        <p> En este sitio puedes crear un mensaje de cumpleaños secreto, solo debes agregar un numero al azar, tu mensaje y recibiras tu saludo secreto.</p>
      <!--AGREGAR EL MENSAJE -->
-       <p> Ingresa tu Mensaje </p>
-        <textarea> <input type="text" id="mensaje1" rows="10" cols="40"> </textarea> 
+       <p>Ingresa tu Mensaje</p>
+        <textarea type="text" id="mensaje1" rows="10" cols="40"></textarea> 
    
        <!-- NUMERO -->
        <p> Ingresa un numero  </p> 
          <input type="number" id= "numero" size="4"  >
    
        <!-- MENSAJE CIFRADO -->
-      <p> Tu mensaje cifrado </p>
+      <p> Tu Mensaje Secreto </p>
          <textarea id="mensaje2" rows="10" cols="40" ></textarea> 
    
-       <!--  -->
-         <input type="button" value="cifrar" id="cifrar" >
+       <!--BOTON CIFRAR  -->
+       <br> </br>
+         <input type="button" value="cifrar" id="cifrar" > 
    
-   <!--  -->
+   <!--BOTON DESCIFRAR  -->
          <input type="button" value="descifrar" id="descifrar"  > 
-   
-        <!--  -->    
-         <input type="button" value="Limpiar" id="limpiar"  >
+
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

@@ -1,1 +1,43 @@
-/* Acá va tu código */
+/* cajas de texto centradas*/
+*{
+  text-align: center
+}
+
+body {
+    background-image: url(1535146937-torta-cumpleaos-istock.png);
+    background-color: #4682B4;
+   }
+
+   h1 {
+	font-family: monospace;
+    font-size:40px;	
+    color:#0000FF;
+    text-align: center;
+    }
+   p {
+	font-family:monospace;
+    font-size:20px;	
+    color:rgb(113, 37, 200);
+    text-align: center;
+	}
+    #textarea {
+        text-align: center;
+        }
+
+
+#mensaje1 {
+    background-color: aquamarine;
+    opacity: 0.5; 
+
+}
+
+#mensaje2{
+    background-color: aquamarine;
+    opacity: 0.5;
+   
+}
+
+#numero{
+    background-color: aquamarine;
+    opacity: 0.5;
+}
